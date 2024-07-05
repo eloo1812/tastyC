@@ -1,0 +1,55 @@
+{% extends "site/master.html" %}
+{% block content %}
+
+<div class="container">
+    <div class="forms-container">
+        <div class="signin-signup">
+            <div class="logoo">
+                <img src="./assets/imagens/logo.png" class="img-logoo" alt="logo do site cujo apresenta dois talheres cruzados significando um T e escrito ao lado em preto 'asty.C' formando o nome do site">
+            </div>
+            <form method="POST" class="forms"  action="" >
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="email" name="email" id="email" required
+                         placeholder="Insira seu email">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="senha" id="senha" required
+                        placeholder="Insira sua senha">
+                    </div>
+                    <input type="submit" value="Login" class="btn solid" id="btn_login">
+                
+                
+            </form>
+            <div class="baixoo">
+                <div class="separator-containerr">
+                    <hr class="separator">
+                    <div class="or">ou</div>
+                </div>
+                
+
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+                <a href="/cadastro" class="social-texxt" id="ainda">Ainda não possui uma conta? <b>Cadastre-se</b></a>
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+
+</div>
+</div>
+
+    
+
+<script src="script.js"></script>
+{% endblock %}
