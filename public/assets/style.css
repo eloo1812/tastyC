@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap'); 
 
 * {
     margin: 0;
@@ -8,7 +9,7 @@ body, html, input {
     height: 100%;
     width:auto;
     /* Garante que não haja rolagem */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 #flash_alerta{
@@ -315,12 +316,14 @@ body, html {
     font-weight: bold; /* Fonte em negrito */
     font-size: 31px; /* Tamanho do título */
     margin-bottom: 10px; /* Espaçamento abaixo do título */
-    text-align: center; /* Centraliza o texto */
+    margin-right: 30px; /* Centraliza o texto */
+    color: #572950;
 }
 
 .description {
     font-size: 18px; /* Tamanho do texto */
     text-align: justify; /* Justifica o texto */
+    color: #666;
 }
 .btn {
     margin-top: 30vh;
@@ -354,16 +357,19 @@ body, html {
     font-size: 25px;
 }
 .title-titu{
-    color: #000;
-    font-size: 20px;
+    color: #572950;
+    font-size: 23px;
     font-weight: 600;
-    margin-left: 46vw;
+    margin-left: 44vw;
+    margin-top: 3vh;
 }
 .descriptionn {
-    font-size: 15px; /* Tamanho do texto */
+    font-size: 17px; /* Tamanho do texto */
     text-align: justify; /* Justifica o texto */
-    margin-left: 43.5vw;
+    margin-left: 41.5vw;
     margin-top: -2vh;
+    color: #572950;
+    font-weight: 600;
 }
 .container-text-center{
     margin-left: 7vw;
@@ -387,7 +393,7 @@ body, html {
     margin: 0 45px;
 }
 
- .img-massa, .img-prato, .img-salada {
+.img-massa, .img-prato, .img-salada {
     width: 240px;
     height: auto;
      /* Espaçamento horizontal entre as imagens */
